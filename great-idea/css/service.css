@@ -6,10 +6,20 @@ a {
 
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding: 20px 0px 20px 0px;
 }
+
+html {
+    display: flex;
+    justify-content: center;
+    margin: 0 10% 0 20%;
+}
+
+/* .services-header-img {
+    padding: 0px 20px 0px 0px;
+} */
 
 .services {
     
@@ -23,6 +33,14 @@ nav {
     padding: 20px;
 }
 
+button {
+    background-color: white;
+    border: 1px solid;
+    padding: 10px 45px;
+    font-size: 11px;
+    border-radius: 8px;
+}
+
 h2, h3, h4 {
     font-style: italic; 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -32,7 +50,8 @@ h2, h3, h4 {
 .offers {
     display: flex;
     flex-direction: column;
-    align-content: space-around;
+    /* align-content: space-between;
+    justify-content: space-around; */
 }
 
 .first-row {
@@ -50,4 +69,18 @@ h2, h3, h4 {
 .third-row {
     display: flex;
     justify-content: space-around;
+}
+
+.bottom {
+    display: flex;
+    border-top: 2px solid;
+    padding: 40px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    /* align-items: space-between; */
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
 }
