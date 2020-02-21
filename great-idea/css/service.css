@@ -1,0 +1,53 @@
+
+a {
+    color: rgb(128, 119, 119);
+	text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.services {
+    
+    padding: 10px 0px 10px 0px;
+}
+
+.list-of-service {
+    background-color: whitesmoke;
+    border: 1px solid;
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+}
+
+h2, h3, h4 {
+    font-style: italic; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+
+.offers {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.first-row {
+    border-top: 1px solid;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.second-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-row {
+    display: flex;
+    justify-content: space-around;
+}
