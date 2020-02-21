@@ -15,11 +15,19 @@ html {
     display: flex;
     justify-content: center;
     margin: 0 10% 0 20%;
+    /* border: 1px solid; */
 }
 
-/* .services-header-img {
-    padding: 0px 20px 0px 0px;
+/* .main image {
+    display: flex;
+    justify-content: center;
 } */
+
+.services-header-img {
+    padding: 0px 0px 0px 0px;
+    /* border: 1px solid; */
+    
+}
 
 .services {
     
@@ -84,3 +92,12 @@ ul {
     /* justify-content: flex-start; */
     /* align-items: flex-start; */
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+/* span {
+    align-self:center;
+} */
